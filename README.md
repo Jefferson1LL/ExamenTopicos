@@ -7,9 +7,9 @@ ya que dentro de la programacion esto se lo despliega como un modal.
 
 A continucación se generan los servicios de autenticación y el que es para el chat.
 Dentro del servicio de autenticación importamos las librerias necesarias como lo son:
- * *AngularFirestore
- * *AngularFireAuth
- * *Router
+ * AngularFirestore
+ * AngularFireAuth
+ * Router
  se puede decir que estas tres son las principales para el funcionamiento de login.
  En el mismo archivo ocupamos 3 funciones como son las de login la cual adquiere dos parámetros que son email y password
  tenemos un logOut para el cierre de sesión y tenemos el de registrar donde los parametros que se piden son
@@ -31,7 +31,7 @@ Dentro del servicio de autenticación importamos las librerias necesarias como l
  los campos y nos redirige al home.
  Cada página o componente cuenta con un archivo scss para dar un diseño agradable a la vista del usuario.
  Debemos recalcar también que tenemos unos archivos que son de importancia en el sistema y estos son:
- * *app-routing.module: Este es donde se guardan las direcciones de cada página creada y las que nos ayudan a la navegación
- * *app.module.ts: Este es donde importamos las librerias del sistema necesarias para el funcionamiento aqui se debe colocar todo lo
+ * app-routing.module: Este es donde se guardan las direcciones de cada página creada y las que nos ayudan a la navegación
+ * app.module.ts: Este es donde importamos las librerias del sistema necesarias para el funcionamiento aqui se debe colocar todo lo
  que vamos a ocupar ya que sin eso el sistema nos da errores en cualquier momento.
- * *envireonment: Dentro de este archivo lo que colocamos son las credenciales de firebase
+ * envireonment: Dentro de este archivo lo que colocamos son las credenciales de firebase
