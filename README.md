@@ -31,7 +31,7 @@ Dentro del servicio de autenticación importamos las librerias necesarias como l
  los campos y nos redirige al home.
  Cada página o componente cuenta con un archivo scss para dar un diseño agradable a la vista del usuario.
  Debemos recalcar también que tenemos unos archivos que son de importancia en el sistema y estos son:
- * * app-routing.module: Este es donde se guardan las direcciones de cada página creada y las que nos ayudan a la navegación
+ * *app-routing.module: Este es donde se guardan las direcciones de cada página creada y las que nos ayudan a la navegación
  * *app.module.ts: Este es donde importamos las librerias del sistema necesarias para el funcionamiento aqui se debe colocar todo lo
  que vamos a ocupar ya que sin eso el sistema nos da errores en cualquier momento.
  * *envireonment: Dentro de este archivo lo que colocamos son las credenciales de firebase
